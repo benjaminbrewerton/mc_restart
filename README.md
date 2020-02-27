@@ -41,11 +41,11 @@ Then insert the following line
 This will restart a target instance every 2 hours. Read more on crontab scheduling at this [page](https://opensource.com/article/17/11/how-use-cron-linux).
 
 ## Note
-Just note that this script assumes the server runs on a screen instance named `mc`. If needed on first setup, run the following to get the server initially running while in the directory of the server jar file:
+1. Just note that this script assumes the server runs on a screen instance named `mc`. If needed on first setup, run the following to get the server initially running while in the directory of the server jar file:
 ```
 screen -dmS mc bash /home/zomb/scripts/start.sh
 ```
 
-Some basic operations of the screen platform are:
+2. Some basic operations of the screen platform are:
 - To recall the server screen session to the terminal use `screen -r mc`
 - Then to detatch from the session without closing the server `Ctrl-A` + `D`

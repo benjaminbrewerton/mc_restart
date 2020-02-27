@@ -19,10 +19,11 @@ Then navigate to the location of the `restart.sh` and `start.sh` and execute the
 chmod +x restart.sh
 chmod +x start.sh
 ```
-Now it is time to start the server, this can be done by reading the Note section or just by simply executing the restart script by executing when in the script's directory:
+Now it is time to start the server, this can be done by reading the Note section or just by simply executing the restart script when in the script's directory:
 ```
 ./restart.sh
 ```
+*Note there is a 5 minute delay on server startup because of the script's delay using this method*
 
 ## Recommended
 To maximise the benefit of these scripts, an automatic repetition of the script should be setup.

@@ -1,5 +1,5 @@
 # mc_restart
-A server restart script for Minecraft Servers
+A server restart script for Minecraft Servers hosted on linux systems
 
 ## Features
 - The restart script restarts the server when executed with a 5 minute delay and features warnings to players of the server's restart

@@ -28,3 +28,9 @@ Then insert the following line
 ```
 
 This will restart a target instance every 2 hours. Read more on crontab scheduling at this [page](https://opensource.com/article/17/11/how-use-cron-linux).
+
+## Note
+###Just note that this script assumes the server runs on a screen instance named `mc`. If needed on first setup, run the following to get the server initially running while in the directory of the server jar file:
+```
+screen -S mc java -Xms1G -Xmx2G -jar {jarfile_name}.jar
+```

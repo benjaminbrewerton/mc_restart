@@ -19,8 +19,12 @@ To maximise the benefit of these scripts, an automatic repetition of the script 
 Crontab on linux works effectively and simply for this implementation.
 
 Say if the restart script is located at `/home/zomb/scripts`, then the crontab implementation of the restart script can be implemented using the commands as follows:
-`crontab -e`
+```
+crontab -e
+```
 Then insert the following line
-`55 */2 * * * /home/zomb/scripts/restart.sh`
+```
+55 */2 * * * /home/zomb/scripts/restart.sh
+```
 
-This will restart a target instance at every 2 hours
+This will restart a target instance every 2 hours. Read more on crontab scheduling at this [page](https://opensource.com/article/17/11/how-use-cron-linux).
